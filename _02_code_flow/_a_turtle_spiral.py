@@ -10,9 +10,13 @@ def get_random_color():
 
 
 if __name__ == '__main__':
+
     window = turtle.Screen()
-    window.bgcolor('black')
-    
+
+    for i in range(4):
+        print("yes")
+
+
     # Make a new turtle
     jeff = turtle.Turtle()
     # This code sets our shape to a turtle
@@ -36,6 +40,6 @@ if __name__ == '__main__':
         # Change the turtle width to 'i' (the loop variable)
         
         # Check the pattern against the picture in the recipe. If it matches, you are done!
-    
+
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
